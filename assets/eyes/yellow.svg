@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49.776mm" height="27.704mm" version="1.1" viewBox="0 0 49.776 27.704" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-173.27 -253.43)" fill-rule="evenodd">
+  <path d="m221.73 271.52c0-0.0416 0.89845 8.1234-8.386 9.584-9.2846-0.29941-10.183-9.4342-10.183-9.4342z" fill="#727272" opacity=".347"/>
+  <path d="m223.04 266.47a10.307 13.037 0 0 1-10.308 13.037 10.307 13.037 0 0 1-10.307-13.037 10.307 13.037 0 0 1 10.307-13.037 10.307 13.037 0 0 1 10.308 13.037z" fill="#fff"/>
+  <path d="m174.54 271.55c0-0.0161-0.89845 8.0387 8.386 9.584 9.2846-0.29941 10.033-9.7338 10.033-9.7338z" fill="#727272" opacity=".347"/>
+  <path d="m193.88 266.47a10.307 13.037 0 0 1-10.308 13.037 10.307 13.037 0 0 1-10.307-13.037 10.307 13.037 0 0 1 10.307-13.037 10.307 13.037 0 0 1 10.308 13.037z" fill="#fff"/>
+  <ellipse cx="186.92" cy="267.27" rx="5.9668" ry="5.9668" fill="#585708"/>
+  <ellipse cx="209.01" cy="267.27" rx="5.9668" ry="5.9668" fill="#585708"/>
+  <circle cx="206.66" cy="265.63" r="1.8371" fill="#fff"/>
+  <circle cx="185.06" cy="265.63" r="1.8371" fill="#fff"/>
+ </g>
+</svg>
