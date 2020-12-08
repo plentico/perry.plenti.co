@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64.529mm" height="33.366mm" version="1.1" viewBox="0 0 64.529 33.366" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-341.86 -484.99)">
+  <path d="m397.35 508.74c0-0.0416 0.89846 8.1234-8.3861 9.584-9.2846-0.29941-10.183-9.4342-10.183-9.4342z" fill="#727272" fill-rule="evenodd" opacity=".347"/>
+  <g transform="matrix(.28222 0 0 .28222 678.58 109.13)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4">
+   <path d="m-1011.4 1357.4s16.429-6.4286 24.286-23.571"/>
+   <path d="m-999.29 1370.2s18.571-2.8571 26.429-14.286"/>
+   <path d="m-992.14 1390.9s15.714 0.7143 25.714-8.5714"/>
+  </g>
+  <path d="m398.66 503.69a10.307 13.037 0 0 1-10.308 13.037 10.307 13.037 0 0 1-10.307-13.037 10.307 13.037 0 0 1 10.307-13.037 10.307 13.037 0 0 1 10.308 13.037z" fill="#fff" fill-rule="evenodd"/>
+  <path d="m350.16 508.78c0-0.0161-0.89846 8.0387 8.386 9.584 9.2846-0.29941 10.033-9.7338 10.033-9.7338z" fill="#727272" fill-rule="evenodd" opacity=".347"/>
+  <g transform="matrix(.28222 0 0 .28222 677.97 106.71)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4">
+   <path d="m-1143.9 1365.9s-16.429-6.4286-24.286-23.571"/>
+   <path d="m-1156.1 1378.8s-18.571-2.8571-26.429-14.286"/>
+   <path d="m-1163.2 1399.5s-15.714 0.7143-25.714-8.5714"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path d="m369.5 503.69a10.307 13.037 0 0 1-10.308 13.037 10.307 13.037 0 0 1-10.307-13.037 10.307 13.037 0 0 1 10.307-13.037 10.307 13.037 0 0 1 10.308 13.037z" fill="#fff"/>
+   <ellipse cx="362.54" cy="504.49" rx="5.9668" ry="5.9668" fill="#082f58"/>
+   <ellipse cx="384.64" cy="504.49" rx="5.9668" ry="5.9668" fill="#082f58"/>
+   <circle cx="386.52" cy="502.24" r="1.8371" fill="#fff"/>
+   <circle cx="363.91" cy="502.45" r="1.8371" fill="#fff"/>
+  </g>
+ </g>
+</svg>
