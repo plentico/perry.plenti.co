@@ -1,4 +1,5 @@
 const contentSource = [{
+"pager": 1,
 "path": "/",
 "type": "index",
 "filename": "index.json",

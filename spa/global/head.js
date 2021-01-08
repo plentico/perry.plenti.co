@@ -27,8 +27,11 @@ function create_fragment(ctx) {
 	let title_1;
 	let t2;
 	let t3;
-	let link0;
+	let script;
+	let script_src_value;
 	let t4;
+	let link0;
+	let t5;
 	let link1;
 
 	return {
@@ -41,8 +44,10 @@ function create_fragment(ctx) {
 			title_1 = element("title");
 			t2 = text(/*title*/ ctx[0]);
 			t3 = space();
-			link0 = element("link");
+			script = element("script");
 			t4 = space();
+			link0 = element("link");
+			t5 = space();
 			link1 = element("link");
 			this.h();
 		},
@@ -58,8 +63,12 @@ function create_fragment(ctx) {
 			t2 = claim_text(title_1_nodes, /*title*/ ctx[0]);
 			title_1_nodes.forEach(detach);
 			t3 = claim_space(head_nodes);
-			link0 = claim_element(head_nodes, "LINK", { rel: true, type: true, href: true });
+			script = claim_element(head_nodes, "SCRIPT", { type: true, src: true });
+			var script_nodes = children(script);
+			script_nodes.forEach(detach);
 			t4 = claim_space(head_nodes);
+			link0 = claim_element(head_nodes, "LINK", { rel: true, type: true, href: true });
+			t5 = claim_space(head_nodes);
 			link1 = claim_element(head_nodes, "LINK", { rel: true, href: true });
 			head_nodes.forEach(detach);
 			this.h();
@@ -68,6 +77,8 @@ function create_fragment(ctx) {
 			attr(meta0, "charset", "utf-8");
 			attr(meta1, "name", "viewport");
 			attr(meta1, "content", "width=device-width,initial-scale=1");
+			attr(script, "type", "module");
+			if (script.src !== (script_src_value = "/spa/ejected/main.js")) attr(script, "src", script_src_value);
 			attr(link0, "rel", "icon");
 			attr(link0, "type", "image/svg+xml");
 			attr(link0, "href", "/assets/favicon.svg");
@@ -83,8 +94,10 @@ function create_fragment(ctx) {
 			append(head, title_1);
 			append(title_1, t2);
 			append(head, t3);
-			append(head, link0);
+			append(head, script);
 			append(head, t4);
+			append(head, link0);
+			append(head, t5);
 			append(head, link1);
 		},
 		p(ctx, [dirty]) {
